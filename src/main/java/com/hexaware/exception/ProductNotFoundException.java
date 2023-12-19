@@ -1,6 +1,6 @@
 package com.hexaware.exception;
 
-public class ProductNotFoundException {
+public class ProductNotFoundException extends Exception{
 	
 	@Override
 	public String toString() {

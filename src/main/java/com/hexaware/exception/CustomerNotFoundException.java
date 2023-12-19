@@ -1,10 +1,10 @@
 package com.hexaware.exception;
 
-public class CustomerNotFoundException {
+public class CustomerNotFoundException extends Exception{
 	
 	@Override
 	public String toString() {
-		return "The Customer Id is invalid";
+		return "The Customer Id is invalid!\n";
 	}
 
 }

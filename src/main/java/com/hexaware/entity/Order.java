@@ -19,7 +19,7 @@ public class Order {
 	
 	public Order(long orderId, Customer customer, Date orderDate, double totalPrice, String street, String city,
 			String state, String pincode) {
-		super();
+		
 		this.orderId = orderId;
 		this.customer = customer;
 		this.orderDate = orderDate;

@@ -1,6 +1,6 @@
 package com.hexaware.exception;
 
-public class OrderNotFoundException {
+public class OrderNotFoundException extends Exception{
 
 	@Override
 	public String toString() {
