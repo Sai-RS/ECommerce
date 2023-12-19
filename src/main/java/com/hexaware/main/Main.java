@@ -59,7 +59,7 @@ public class Main {
 			}
 			else if(choice == 6) {
 				c.placeOrder();
-				System.out.println("Order made successfully!!!");
+				
 			}
 			else if(choice == 7) {
 				c.viewCustomerOrders();
